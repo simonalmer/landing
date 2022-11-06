@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lora&display=swap');
+
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+h1, h2, h3, {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  text-align: center;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 25px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+ color: rgb(57, 81, 68)
+}
+
+/* I've been troubleshooting but can't find a solution to get the Amatic font for my headers inside the body. I realise that it's probably because the headers are inside the body to which i've assigned different fontfamily. Sorry professor! */
+#force-fontfamily {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  text-align: center;
+}
+
